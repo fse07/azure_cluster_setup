@@ -1,0 +1,8 @@
+# Copy this file to terraform.tfvars
+# Fill your own values
+
+subscription_id    = "your-subscription-id-here"
+location           = "eastus"
+environment        = "dev"
+kubernetes_version = "1.35.4"
+ssh_public_key     = "ssh-rsa YOUR_KEY_HERE"

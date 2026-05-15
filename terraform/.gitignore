@@ -1,0 +1,18 @@
+# Terraform sensitive files
+*.tfvars
+*.tfstate
+*.tfstate.backup
+.terraform/
+.terraform.lock.hcl
+tfplan
+
+# Kubeconfig
+kubeconfig*.yaml
+*.yaml.backup
+
+# SSH Keys
+*.pem
+*.key
+
+# OS files
+.DS_Store
